@@ -1,0 +1,101 @@
+#container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+#calculator{
+    height:60vh;
+    width:30vw;
+    background-color: white;    
+    border:2px solid black;
+    /* margin-left:33%; */
+    /* margin-top: 5%; */
+    /* min-width: 300px; */
+    padding:0px;
+    display: flex;
+    flex-wrap: wrap;    
+}
+#calsiheader{
+    /* margin-left:33%; */
+    margin-top:5%;
+    height:12vh;
+    width: 30vw;
+    background-color:blueviolet;
+    display: flex;    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border:2px solid black;
+    border-bottom: none;
+    /* min-width: 300px; */
+}
+#calsiheader h1{
+    margin:0;
+    display: flex;
+    flex-wrap: wrap;
+    color: azure;    
+}
+#calculator-display{
+    height: 20%;
+    width: 96%;
+    background-color: yellow;
+    margin:0% 2%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    overflow:auto;
+}
+.button{
+    height:10%;
+    width: 23%;
+    /* background-color: aqua; */
+    display: inline-block;
+    margin:2px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#calculator>div:hover{
+    background-color:#c4a484;
+}
+#calculator-display:hover{
+    background-color:white;
+}
+#calculator>div{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.opt{
+    background-color:palevioletred;
+}
+body{
+    background-image: url(images/P2calsi.jpg);
+    margin:0;    
+}
+@media screen and (max-width:1200px){
+    #calsiheader{
+        width: 40%;
+    }
+    #calculator{
+        width: 40%;
+    }    
+}
+@media screen and (max-width:900px){
+    #calsiheader{
+        margin-top: 12%;
+        width: 55%;
+    }
+    #calculator{
+        width: 55%;
+    }    
+}
+@media screen and (max-width:600px){
+    #calsiheader{
+        margin-top:18%;
+        width: 90%;
+    }
+    #calculator{
+        width: 90%;
+    }    
+}
