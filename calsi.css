@@ -44,7 +44,11 @@
     margin:0% 2%;
     margin-top:5%;
     margin-bottom: 5%;
-    overflow:auto;
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+#calculator-diplay p{
+    overflow-wrap: break-word;
 }
 .button{
     height:10%;
